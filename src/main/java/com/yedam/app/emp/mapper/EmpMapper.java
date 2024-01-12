@@ -1,5 +1,8 @@
 package com.yedam.app.emp.mapper;
 
-public interface EmpMapper {
+import java.util.List;
 
+public interface EmpMapper {
+	public List<EmpVO> selectEmpList();
+	
 }
